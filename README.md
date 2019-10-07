@@ -9,6 +9,10 @@ To complete this project you will want to:
 - listen to `input` events on the `#student-name` `input`
 - `fetch` to `/api/students` with a `GET` request and provide
   a `q` argument for the current value of `#student-name`
+- `/api/students` will respond with JSON containing a single
+  property `students`. The `students` property will be associated
+  with an array of strings. Each string is the name of a BCCA
+  student/graduate whose name contains the value provided for `q`.
 - populate the `#student-names` `datalist` with `option`s
   for each of the returned names. _Don't forget to empty the
   `datalist` out first._
